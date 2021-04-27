@@ -1,0 +1,33 @@
+/* Create your style on here */
+#img_slider{
+	width: 100%;
+    height: 180px;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+#img_slider img{
+	width: 200px!important;
+}
+#slider_btn{
+	height: 180px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#slider_btn i{
+	font-size: 36px;
+}
+form small{
+    display: table-caption;
+    color: red;
+}
+.errorAlert{
+    border-color: red!important;
+    color: red!important
+}
+.paginationContainer{
+    margin: 0px 10px;
+    float: right;
+}
